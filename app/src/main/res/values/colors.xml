@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal">#0B5F63</color>
+    <color name="teal_light">#E0EEEE</color>
+    <color name="rust">#B94A2C</color>
+    <color name="bg_warm">#F3F1EE</color>
+    <color name="chip_bg">#ECE9E4</color>
+    <color name="ink">#1E1E1E</color>
+    <color name="ink_muted">#6B6660</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

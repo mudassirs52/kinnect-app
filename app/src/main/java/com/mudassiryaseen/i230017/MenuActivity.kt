@@ -14,6 +14,10 @@ class MenuActivity : AppCompatActivity() {
             startActivity(Intent(this, SearchActivity::class.java))
         }
 
+        findViewById<android.widget.LinearLayout>(R.id.rowProfile).setOnClickListener {
+            startActivity(Intent(this, ProfileActivity::class.java))
+        }
+
         findViewById<android.widget.TextView>(R.id.tabHome).setOnClickListener {
             finish()
         }

@@ -29,5 +29,9 @@ class HomeActivity : AppCompatActivity() {
         findViewById<android.widget.TextView>(R.id.tabMenu).setOnClickListener {
             startActivity(Intent(this, MenuActivity::class.java))
         }
+
+        findViewById<android.widget.TextView>(R.id.btnMyAvatar).setOnClickListener {
+            startActivity(Intent(this, ProfileActivity::class.java))
+        }
     }
 }

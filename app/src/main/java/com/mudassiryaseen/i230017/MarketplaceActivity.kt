@@ -4,11 +4,11 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
-class FriendsActivity : AppCompatActivity() {
+class MarketplaceActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_friends)
+        setContentView(R.layout.activity_marketplace)
 
         findViewById<android.widget.TextView>(R.id.btnSearch).setOnClickListener {
             startActivity(Intent(this, SearchActivity::class.java))
@@ -18,8 +18,8 @@ class FriendsActivity : AppCompatActivity() {
             finish()
         }
 
-        findViewById<android.widget.TextView>(R.id.tabMarketplace).setOnClickListener {
-            startActivity(Intent(this, MarketplaceActivity::class.java))
+        findViewById<android.widget.TextView>(R.id.tabFriends).setOnClickListener {
+            startActivity(Intent(this, FriendsActivity::class.java))
             finish()
         }
     }

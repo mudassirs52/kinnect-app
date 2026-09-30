@@ -17,5 +17,9 @@ class HomeActivity : AppCompatActivity() {
         findViewById<android.widget.TextView>(R.id.tabFriends).setOnClickListener {
             startActivity(Intent(this, FriendsActivity::class.java))
         }
+
+        findViewById<android.widget.TextView>(R.id.tabMarketplace).setOnClickListener {
+            startActivity(Intent(this, MarketplaceActivity::class.java))
+        }
     }
 }

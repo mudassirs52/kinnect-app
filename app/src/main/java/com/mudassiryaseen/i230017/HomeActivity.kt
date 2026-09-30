@@ -14,6 +14,10 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, SearchActivity::class.java))
         }
 
+        findViewById<android.widget.FrameLayout>(R.id.btnChats).setOnClickListener {
+            startActivity(Intent(this, ChatsActivity::class.java))
+        }
+
         findViewById<android.widget.TextView>(R.id.tabFriends).setOnClickListener {
             startActivity(Intent(this, FriendsActivity::class.java))
         }

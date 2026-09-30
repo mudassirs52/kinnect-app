@@ -27,5 +27,10 @@ class NotificationsActivity : AppCompatActivity() {
             startActivity(Intent(this, MarketplaceActivity::class.java))
             finish()
         }
+
+        findViewById<android.widget.TextView>(R.id.tabMenu).setOnClickListener {
+            startActivity(Intent(this, MenuActivity::class.java))
+            finish()
+        }
     }
 }

@@ -25,5 +25,9 @@ class HomeActivity : AppCompatActivity() {
         findViewById<android.widget.TextView>(R.id.tabNotifications).setOnClickListener {
             startActivity(Intent(this, NotificationsActivity::class.java))
         }
+
+        findViewById<android.widget.TextView>(R.id.tabMenu).setOnClickListener {
+            startActivity(Intent(this, MenuActivity::class.java))
+        }
     }
 }

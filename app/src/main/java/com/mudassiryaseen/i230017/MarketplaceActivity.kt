@@ -22,5 +22,10 @@ class MarketplaceActivity : AppCompatActivity() {
             startActivity(Intent(this, FriendsActivity::class.java))
             finish()
         }
+
+        findViewById<android.widget.TextView>(R.id.tabNotifications).setOnClickListener {
+            startActivity(Intent(this, NotificationsActivity::class.java))
+            finish()
+        }
     }
 }

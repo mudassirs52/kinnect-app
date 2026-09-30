@@ -13,5 +13,9 @@ class LoginActivity : AppCompatActivity() {
         findViewById<android.widget.TextView>(R.id.btnCreateAccount).setOnClickListener {
             startActivity(Intent(this, SignupActivity::class.java))
         }
+
+        findViewById<android.widget.Button>(R.id.btnLogin).setOnClickListener {
+            startActivity(Intent(this, HomeActivity::class.java))
+        }
     }
 }

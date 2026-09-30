@@ -1,5 +1,6 @@
 package com.mudassiryaseen.i230017
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
@@ -11,6 +12,10 @@ class ProfileActivity : AppCompatActivity() {
 
         findViewById<android.widget.TextView>(R.id.btnBack).setOnClickListener {
             onBackPressedDispatcher.onBackPressed()
+        }
+
+        findViewById<android.widget.TextView>(R.id.btnEditProfile).setOnClickListener {
+            startActivity(Intent(this, EditProfileActivity::class.java))
         }
     }
 }

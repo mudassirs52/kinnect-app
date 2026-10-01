@@ -37,5 +37,13 @@ class HomeActivity : AppCompatActivity() {
         findViewById<android.widget.TextView>(R.id.btnMyAvatar).setOnClickListener {
             startActivity(Intent(this, ProfileActivity::class.java))
         }
+
+        findViewById<android.widget.TextView>(R.id.btnComment).setOnClickListener {
+            startActivity(Intent(this, CommentsActivity::class.java))
+        }
+
+        findViewById<android.widget.TextView>(R.id.btnLike).setOnClickListener {
+            startActivity(Intent(this, ReactionPickerActivity::class.java))
+        }
     }
 }

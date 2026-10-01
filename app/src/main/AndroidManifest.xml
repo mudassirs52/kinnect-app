@@ -77,6 +77,16 @@
             android:name=".VoiceCallActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CommentsActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".ReactionPickerActivity"
+            android:theme="@style/Theme.TransparentDialog"
+            android:exported="false"
+
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

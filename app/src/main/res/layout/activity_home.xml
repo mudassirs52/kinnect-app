@@ -436,6 +436,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:id="@+id/btnReactionCount"
                         android:fontFamily="@font/figtree_regular"
                         android:text="👍❤️😆 Aisha and 1.2K others"
                         android:textColor="@color/ink_muted"

@@ -49,5 +49,13 @@ class HomeActivity : AppCompatActivity() {
         findViewById<android.widget.TextView>(R.id.btnCreatePostField).setOnClickListener {
             startActivity(Intent(this, CreatePostActivity::class.java))
         }
+
+        findViewById<android.widget.FrameLayout>(R.id.btnCreateStory).setOnClickListener {
+            startActivity(Intent(this, CameraActivity::class.java))
+        }
+
+        findViewById<android.widget.FrameLayout>(R.id.btnStoryOmar).setOnClickListener {
+            startActivity(Intent(this, StoryViewerActivity::class.java))
+        }
     }
 }

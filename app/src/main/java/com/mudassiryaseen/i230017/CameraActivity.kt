@@ -1,5 +1,6 @@
 package com.mudassiryaseen.i230017
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 
@@ -11,6 +12,10 @@ class CameraActivity : AppCompatActivity() {
 
         findViewById<android.widget.TextView>(R.id.btnCloseCamera).setOnClickListener {
             finish()
+        }
+
+        findViewById<android.widget.TextView>(R.id.btnShutter).setOnClickListener {
+            startActivity(Intent(this, StoryEditorActivity::class.java))
         }
     }
 }

@@ -45,5 +45,9 @@ class HomeActivity : AppCompatActivity() {
         findViewById<android.widget.TextView>(R.id.btnLike).setOnClickListener {
             startActivity(Intent(this, ReactionPickerActivity::class.java))
         }
+
+        findViewById<android.widget.TextView>(R.id.btnCreatePostField).setOnClickListener {
+            startActivity(Intent(this, CreatePostActivity::class.java))
+        }
     }
 }

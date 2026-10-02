@@ -83,9 +83,20 @@
             android:windowSoftInputMode="adjustResize" />
         <activity
             android:name=".ReactionPickerActivity"
-            android:theme="@style/Theme.TransparentDialog"
             android:exported="false"
-
+            android:theme="@style/Theme.TransparentDialog"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CreatePostActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".PhotoPickerActivity"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>
 

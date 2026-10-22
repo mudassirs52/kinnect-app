@@ -89,8 +89,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/figtree_bold"
-                android:text="⋯"
-                android:textColor="@color/ink_muted"
+                android:drawableTop="@drawable/ic_more"
+                android:drawableTint="@color/ink_muted"
                 android:textSize="20sp" />
         </LinearLayout>
 

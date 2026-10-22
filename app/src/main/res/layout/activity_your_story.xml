@@ -61,8 +61,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/figtree_bold"
-            android:text="✕"
-            android:textColor="@color/white"
+            android:drawableTop="@drawable/ic_close"
+            android:drawableTint="@color/white"
             android:textSize="20sp" />
     </LinearLayout>
 
@@ -105,7 +105,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="🎬\nCreate"
+            android:drawableTop="@drawable/ic_movie" android:drawableTint="@color/white" android:text="Create"
             android:textColor="@color/white"
             android:textSize="10sp" />
 
@@ -115,7 +115,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="🤍\nHighlight"
+            android:drawableTop="@drawable/ic_favorite_border" android:drawableTint="@color/white" android:text="Highlight"
             android:textColor="@color/white"
             android:textSize="10sp" />
 
@@ -125,7 +125,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="➤\nSend"
+            android:drawableTop="@drawable/ic_send" android:drawableTint="@color/white" android:text="Send"
             android:textColor="@color/white"
             android:textSize="10sp" />
 
@@ -135,7 +135,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="⋯\nMore"
+            android:drawableTop="@drawable/ic_more" android:drawableTint="@color/white" android:text="More"
             android:textColor="@color/white"
             android:textSize="10sp" />
     </LinearLayout>

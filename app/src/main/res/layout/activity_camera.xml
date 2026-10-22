@@ -30,7 +30,7 @@
                 android:background="@drawable/bg_avatar_placeholder"
                 android:fontFamily="@font/figtree_regular"
                 android:gravity="center"
-                android:text="☀"
+                android:drawableTop="@drawable/ic_settings" android:drawableTint="@color/ink"
                 android:textSize="18sp" />
 
             <View
@@ -45,8 +45,8 @@
                 android:background="@drawable/bg_avatar_placeholder"
                 android:fontFamily="@font/figtree_bold"
                 android:gravity="center"
-                android:text="✕"
-                android:textColor="@color/ink"
+                android:drawableTop="@drawable/ic_close"
+                android:drawableTint="@color/ink"
                 android:textSize="18sp" />
         </LinearLayout>
     </FrameLayout>
@@ -64,8 +64,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="🖼"
-            android:textColor="@color/white"
+            android:drawableTop="@drawable/ic_image"
+            android:drawableTint="@color/white"
             android:textSize="22sp" />
 
         <TextView
@@ -74,8 +74,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="⚡"
-            android:textColor="@color/white"
+            android:drawableTop="@drawable/ic_flash"
+            android:drawableTint="@color/white"
             android:textSize="22sp" />
 
         <FrameLayout
@@ -97,8 +97,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="🔄"
-            android:textColor="@color/white"
+            android:drawableTop="@drawable/ic_flip"
+            android:drawableTint="@color/white"
             android:textSize="22sp" />
 
         <TextView
@@ -107,8 +107,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="😊"
-            android:textColor="@color/white"
+            android:drawableTop="@drawable/ic_mood"
+            android:drawableTint="@color/white"
             android:textSize="22sp" />
     </LinearLayout>
 

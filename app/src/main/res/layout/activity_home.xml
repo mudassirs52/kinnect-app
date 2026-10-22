@@ -24,42 +24,8 @@
             android:textColor="@color/teal"
             android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/btnSearch"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:background="@drawable/bg_avatar_placeholder"
-            android:fontFamily="@font/figtree_regular"
-            android:gravity="center"
-            android:text="🔍"
-            android:textSize="16sp" />
-
-        <FrameLayout
-            android:id="@+id/btnChats"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="8dp">
-
-            <TextView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:background="@drawable/bg_avatar_placeholder"
-                android:fontFamily="@font/figtree_regular"
-                android:gravity="center"
-                android:text="💬"
-                android:textSize="16sp" />
-
-            <TextView
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:layout_gravity="top|end"
-                android:background="@drawable/bg_badge"
-                android:fontFamily="@font/figtree_bold"
-                android:gravity="center"
-                android:text="3"
-                android:textColor="@color/white"
-                android:textSize="10sp" />
-        </FrameLayout>
+        <TextView android:id="@+id/btnSearch" android:layout_width="40dp" android:layout_height="40dp" android:layout_gravity="center_vertical" android:background="@drawable/bg_btn_search" />
+<FrameLayout android:id="@+id/btnChats" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginStart="8dp"><View android:layout_width="40dp" android:layout_height="40dp" android:layout_gravity="bottom|start" android:background="@drawable/bg_btn_chat" /><TextView android:layout_width="18dp" android:layout_height="18dp" android:layout_gravity="top|end" android:background="@drawable/bg_badge" android:fontFamily="@font/figtree_bold" android:gravity="center" android:text="3" android:textColor="@color/white" android:textSize="10sp" /></FrameLayout>
     </LinearLayout>
 
     <!-- Tabs -->
@@ -76,8 +42,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="⌂"
-            android:textColor="@color/teal"
+            android:drawableTop="@drawable/ic_home"
+            android:drawableTint="@color/teal"
             android:textSize="22sp" />
 
         <TextView
@@ -87,8 +53,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="👥"
-            android:textColor="@color/ink_muted"
+            android:drawableTop="@drawable/ic_people"
+            android:drawableTint="@color/ink_muted"
             android:textSize="22sp" />
 
         <TextView
@@ -98,8 +64,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="🏪"
-            android:textColor="@color/ink_muted"
+            android:drawableTop="@drawable/ic_store"
+            android:drawableTint="@color/ink_muted"
             android:textSize="22sp" />
 
         <TextView
@@ -109,8 +75,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="🔔"
-            android:textColor="@color/ink_muted"
+            android:drawableTop="@drawable/ic_notifications"
+            android:drawableTint="@color/ink_muted"
             android:textSize="22sp" />
 
         <TextView
@@ -120,8 +86,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="☰"
-            android:textColor="@color/ink_muted"
+            android:drawableTop="@drawable/ic_menu"
+            android:drawableTint="@color/ink_muted"
             android:textSize="22sp" />
     </LinearLayout>
 
@@ -177,7 +143,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="8dp"
                     android:fontFamily="@font/figtree_regular"
-                    android:text="🖼"
+                    android:drawableTop="@drawable/ic_image" android:drawableTint="@color/ink"
                     android:textSize="20sp" />
             </LinearLayout>
 
@@ -356,7 +322,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:fontFamily="@font/figtree_regular"
-                            android:text="2h · 🌐"
+                            android:drawableEnd="@drawable/ic_public" android:drawablePadding="4dp" android:drawableTint="@color/ink_muted" android:text="2h ·"
                             android:textColor="@color/ink_muted"
                             android:textSize="12sp" />
                     </LinearLayout>
@@ -365,8 +331,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/figtree_bold"
-                        android:text="⋯"
-                        android:textColor="@color/ink_muted"
+                        android:drawableTop="@drawable/ic_more"
+                        android:drawableTint="@color/ink_muted"
                         android:textSize="18sp" />
                 </LinearLayout>
 
@@ -473,7 +439,7 @@
                         android:fontFamily="@font/figtree_bold"
                         android:gravity="center"
                         android:padding="8dp"
-                        android:text="👍 Like"
+                        android:drawableStart="@drawable/ic_thumb_up" android:drawablePadding="12dp" android:drawableTint="@color/ink" android:text="Like"
                         android:textColor="@color/ink_muted"
                         android:textSize="14sp" />
 
@@ -485,7 +451,7 @@
                         android:fontFamily="@font/figtree_bold"
                         android:gravity="center"
                         android:padding="8dp"
-                        android:text="💬 Comment"
+                        android:drawableStart="@drawable/ic_chat" android:drawablePadding="12dp" android:drawableTint="@color/ink" android:text="Comment"
                         android:textColor="@color/ink_muted"
                         android:textSize="14sp" />
 
@@ -496,7 +462,7 @@
                         android:fontFamily="@font/figtree_bold"
                         android:gravity="center"
                         android:padding="8dp"
-                        android:text="↗ Share"
+                        android:drawableStart="@drawable/ic_share" android:drawablePadding="12dp" android:drawableTint="@color/ink" android:text="Share"
                         android:textColor="@color/ink_muted"
                         android:textSize="14sp" />
                 </LinearLayout>

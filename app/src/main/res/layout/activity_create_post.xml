@@ -19,8 +19,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/figtree_bold"
-            android:text="✕"
-            android:textColor="@color/ink"
+            android:drawableTop="@drawable/ic_close"
+            android:drawableTint="@color/ink"
             android:textSize="20sp" />
 
         <TextView
@@ -75,7 +75,7 @@
                 android:fontFamily="@font/figtree_bold"
                 android:paddingHorizontal="12dp"
                 android:paddingVertical="6dp"
-                android:text="🌐 Public  ⌄"
+                android:drawableStart="@drawable/ic_public" android:drawablePadding="12dp" android:drawableTint="@color/ink" android:text="Public  ⌄"
                 android:textColor="@color/ink"
                 android:textSize="12sp" />
 
@@ -160,7 +160,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/figtree_regular"
-            android:text="🖼"
+            android:drawableTop="@drawable/ic_image" android:drawableTint="@color/ink"
             android:textSize="20sp" />
 
         <TextView
@@ -184,7 +184,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/figtree_regular"
-            android:text="🏷"
+            android:drawableTop="@drawable/ic_tag" android:drawableTint="@color/ink"
             android:textSize="20sp" />
 
         <TextView
@@ -208,7 +208,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/figtree_regular"
-            android:text="😊"
+            android:drawableTop="@drawable/ic_mood" android:drawableTint="@color/ink"
             android:textSize="20sp" />
 
         <TextView
@@ -232,7 +232,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/figtree_regular"
-            android:text="📍"
+            android:drawableTop="@drawable/ic_location" android:drawableTint="@color/ink"
             android:textSize="20sp" />
 
         <TextView
@@ -256,7 +256,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/figtree_regular"
-            android:text="🎥"
+            android:drawableTop="@drawable/ic_videocam" android:drawableTint="@color/ink"
             android:textSize="20sp" />
 
         <TextView
@@ -281,7 +281,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/figtree_regular"
-            android:text="📷"
+            android:drawableTop="@drawable/ic_photo_camera" android:drawableTint="@color/ink"
             android:textSize="20sp" />
 
         <TextView
@@ -305,7 +305,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/figtree_regular"
-            android:text="📅"
+            android:drawableTop="@drawable/ic_event" android:drawableTint="@color/ink"
             android:textSize="20sp" />
 
         <TextView

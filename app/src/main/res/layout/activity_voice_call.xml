@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/figtree_regular"
-        android:text="🔒  End-to-end encrypted"
+        android:drawableStart="@drawable/ic_lock" android:drawablePadding="8dp" android:drawableTint="#CCFFFFFF" android:text="End-to-end encrypted"
         android:textColor="#CCFFFFFF"
         android:textSize="13sp" />
 
@@ -61,7 +61,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="🗒"
+            android:drawableTop="@drawable/ic_notes" android:drawableTint="@color/white"
             android:textSize="22sp" />
 
         <TextView
@@ -70,7 +70,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="🎙"
+            android:drawableTop="@drawable/ic_mic" android:drawableTint="@color/white"
             android:textSize="22sp" />
 
         <TextView
@@ -82,7 +82,7 @@
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
             android:padding="16dp"
-            android:text="📞"
+            android:drawableTop="@drawable/ic_call_end" android:drawableTint="@color/white"
             android:textColor="@color/white"
             android:textSize="22sp" />
 
@@ -92,7 +92,7 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="🔊"
+            android:drawableTop="@drawable/ic_volume_up" android:drawableTint="@color/white"
             android:textSize="22sp" />
     </LinearLayout>
 </LinearLayout>

@@ -22,42 +22,8 @@
             android:textColor="@color/ink"
             android:textSize="24sp" />
 
-        <TextView
-            android:id="@+id/btnSearch"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:background="@drawable/bg_avatar_placeholder"
-            android:fontFamily="@font/figtree_regular"
-            android:gravity="center"
-            android:text="🔍"
-            android:textSize="16sp" />
-
-        <FrameLayout
-            android:id="@+id/btnChats"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="8dp">
-
-            <TextView
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:background="@drawable/bg_avatar_placeholder"
-                android:fontFamily="@font/figtree_regular"
-                android:gravity="center"
-                android:text="💬"
-                android:textSize="16sp" />
-
-            <TextView
-                android:layout_width="18dp"
-                android:layout_height="18dp"
-                android:layout_gravity="top|end"
-                android:background="@drawable/bg_badge"
-                android:fontFamily="@font/figtree_bold"
-                android:gravity="center"
-                android:text="3"
-                android:textColor="@color/white"
-                android:textSize="10sp" />
-        </FrameLayout>
+        <TextView android:id="@+id/btnSearch" android:layout_width="40dp" android:layout_height="40dp" android:layout_gravity="center_vertical" android:background="@drawable/bg_btn_search" />
+<FrameLayout android:id="@+id/btnChats" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginStart="8dp"><View android:layout_width="40dp" android:layout_height="40dp" android:layout_gravity="bottom|start" android:background="@drawable/bg_btn_chat" /><TextView android:layout_width="18dp" android:layout_height="18dp" android:layout_gravity="top|end" android:background="@drawable/bg_badge" android:fontFamily="@font/figtree_bold" android:gravity="center" android:text="3" android:textColor="@color/white" android:textSize="10sp" /></FrameLayout>
     </LinearLayout>
 
     <LinearLayout
@@ -74,8 +40,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="⌂"
-            android:textColor="@color/ink_muted"
+            android:drawableTop="@drawable/ic_home"
+            android:drawableTint="@color/ink_muted"
             android:textSize="22sp" />
 
         <TextView
@@ -84,8 +50,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="👥"
-            android:textColor="@color/teal"
+            android:drawableTop="@drawable/ic_people"
+            android:drawableTint="@color/teal"
             android:textSize="22sp" />
 
         <TextView
@@ -95,8 +61,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="🏪"
-            android:textColor="@color/ink_muted"
+            android:drawableTop="@drawable/ic_store"
+            android:drawableTint="@color/ink_muted"
             android:textSize="22sp" />
 
         <TextView
@@ -106,8 +72,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="🔔"
-            android:textColor="@color/ink_muted"
+            android:drawableTop="@drawable/ic_notifications"
+            android:drawableTint="@color/ink_muted"
             android:textSize="22sp" />
 
         <TextView
@@ -117,8 +83,8 @@
             android:layout_weight="1"
             android:fontFamily="@font/figtree_regular"
             android:gravity="center"
-            android:text="☰"
-            android:textColor="@color/ink_muted"
+            android:drawableTop="@drawable/ic_menu"
+            android:drawableTint="@color/ink_muted"
             android:textSize="22sp" />
     </LinearLayout>
 

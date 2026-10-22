@@ -19,8 +19,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/figtree_bold"
-            android:text="←"
-            android:textColor="@color/ink"
+            android:drawableTop="@drawable/ic_arrow_back"
+            android:drawableTint="@color/ink"
             android:textSize="22sp" />
 
         <TextView
@@ -64,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/figtree_regular"
-            android:text="📞"
+            android:drawableTop="@drawable/ic_phone" android:drawableTint="@color/ink"
             android:textSize="18sp" />
 
         <TextView
@@ -72,14 +72,14 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/figtree_regular"
-            android:text="🎥"
+            android:drawableTop="@drawable/ic_videocam" android:drawableTint="@color/ink"
             android:textSize="18sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/figtree_regular"
-            android:text="ⓘ"
+            android:drawableTop="@drawable/ic_info" android:drawableTint="@color/ink"
             android:textSize="18sp" />
     </LinearLayout>
 
@@ -221,7 +221,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
             android:fontFamily="@font/figtree_regular"
-            android:text="➕"
+            android:drawableTop="@drawable/ic_add" android:drawableTint="@color/ink"
             android:textSize="18sp" />
 
         <TextView
@@ -229,7 +229,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
             android:fontFamily="@font/figtree_regular"
-            android:text="📷"
+            android:drawableTop="@drawable/ic_photo_camera" android:drawableTint="@color/ink"
             android:textSize="18sp" />
 
         <TextView
@@ -237,7 +237,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="10dp"
             android:fontFamily="@font/figtree_regular"
-            android:text="🖼"
+            android:drawableTop="@drawable/ic_image" android:drawableTint="@color/ink"
             android:textSize="18sp" />
 
         <EditText
@@ -255,7 +255,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:fontFamily="@font/figtree_regular"
-            android:text="👍"
+            android:drawableTop="@drawable/ic_thumb_up" android:drawableTint="@color/teal"
             android:textSize="18sp" />
     </LinearLayout>
 </LinearLayout>
